@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="helloworld.iconikindia.com.android_session2_assignment2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorRed"
+            android:text="Red"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorOrange"
+            android:text="Orange"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorYellow"
+            android:text="Yellow"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorGreen"
+            android:text="Green"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorBlue"
+            android:text="Blue"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorIngigo"
+            android:text="Ingigo"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorViolet"
+            android:text="Violet"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
